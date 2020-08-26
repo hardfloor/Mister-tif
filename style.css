@@ -596,7 +596,7 @@ footer {
 
 .subfooter {
   width: 50vw;
-  height: auto;
+  height: 200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1016,34 +1016,35 @@ p {
       
       }
 
-      .subfooter{
-      display:flex ;
-      justify-content: space-between;
 
-
-      }
       .subfooter p,
       a {
         font-size: 1rem;
       }
 
       .subfooter .find {
-        text-decoration: none;
+       
         font-size: 1rem;
       
-        border-radius: 5px;
-        color: white;
+       
       
       
       }
+
+      footer{
+        padding :10px
+      }
+     
 
       .map-blue{
 
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        align-items: flex-start;
         height: 50px;
         width: 200px;
-      }
+        margin-left:50px ;
+      
 
     }
