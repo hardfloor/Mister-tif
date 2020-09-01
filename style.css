@@ -10,13 +10,11 @@ html {
 body {
   margin: 0;
   padding: 0;
-  height: 100%;
   width: 100%;
+  height: 100%;
   color: white;
   perspective: 1px;
   transform-style: preserve-3d;
-  height: 100%;
-
   overflow-y: scroll;
   font-family: 'Barlow Semi Condensed', sans-serif;
   box-sizing: border-box;
@@ -291,6 +289,7 @@ P {
 
 .description p {
   color: black;
+  font-size: 2rem;
 }
 
 
@@ -312,6 +311,7 @@ P {
   background-image: url(src/new/DSC06102.png);
   padding-top: 50px;
   padding-bottom: 100px;
+  background-repeat: no-repeat;
 
 
 
@@ -346,11 +346,22 @@ P {
   margin-top: 40px;
   text-decoration: none;
   font-size: 2rem;
-  background-color: rgba(20, 10, 16, 0.6);
+  background-color: rgba(252, 249, 251, 1);
   padding: 10px 25px;
   border-radius: 5px;
-  color: white;
+  color: rgba(20, 10, 16, 1);
 
+}
+
+#services .opening-time{
+  margin-top: 20px;
+
+}
+#services p{
+  letter-spacing: 2px;
+  font-size:2rem;
+  margin:0;
+  text-align: center;
 }
 
 /* GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY*/
@@ -363,7 +374,7 @@ P {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: white;
+  background: rgba(56, 29, 20,0.8);
   
 
 
@@ -410,16 +421,17 @@ P {
   width: 100%;
   height: 100%;
   overflow: auto;
-  top: -220%;
+  top: -320%;
   left: 0;
 
 }
 
 .lightbox-content {
   position: relative;
-  width: 70%;
+  width: 90%;
   height: 75%;
   margin: 6% auto;
+  z-index: 3;
 }
 
 .lightbox-content img {
@@ -587,7 +599,7 @@ textarea {
 
 footer {
   height: 100px;
-  background-color: rgba(53, 23, 6, 0.6);
+  background: rgba(56, 29, 20,0.8);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -657,8 +669,8 @@ p {
 
 .sib {
   position: absolute;
-  bottom: 10%;
-  left: 50%;
+  bottom: 50%;
+  left: 32%;
   transform: translateX(-50%);
   text-decoration: none;
   font-size: 1.5rem;
@@ -740,11 +752,6 @@ p {
     width: 45%
   }
 
-  .sib {
-
-    bottom: 1%;
-    left: 50%;
-  }
 
 
   @media screen and (max-width: 1024px) {

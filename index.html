@@ -33,8 +33,8 @@
         <div class="topnav" id="myTopnav">
             <a href="#home" class="active"><img src="src/new/logodivers.png" alt="logo du coiffeur"></a>
             <a href="#about">A propos</a>
-            <a href="#services">Services</a>
             <a href="#gallery">Gallerie</a>
+            <a href="#services">Services</a>
             <a href="#contact">Contact</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
@@ -78,15 +78,10 @@
 
                 <div class="description">
 
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis impedit voluptas
-                        voluptatibus
-                        optio? Deleniti odit harum velit ullam voluptatem, cupiditate exercitationem accusamus sit
-                        voluptas
-                        est error et rem aperiam commodi mollitia, molestiae accusantium consequatur excepturi molestias
-                        adipisci numquam ducimus! Fuga nemo dolor in maxime velit alias repellat tempore qui earum, eius
-                        voluptate et ducimus temporibus repellendus porro sequi illum tenetur quidem pariatur. Impedit
-                        ut
-                        dolore v . </p>
+                    <p>Passionné depuis l’âge de mes 16 ans par la coiffure, c’est après de multiples expériences dans la région parisienne  que j’ai décidé, en 2013, de venir m’installer dans ce beau département de la Vendée. Comme beaucoup, j’y passais mes vacances ; et un jour j’ai décidé de poser mes bagages à Aubigny-Les Clouzeaux. J’y ai ouvert mon salon de coiffeur-barbier, et je ne regrette rien !
+                        J’ai fait de la coupe en brosse ma spécialité, tout comme la pratique de la coupe au rasoir, la barbe n’a plus de secret pour moi, alors venez passer un bon moment de détente en toute convivialité dan smon salon Mister'Tif.
+                        
+                         </p>
                    
 
                 </div>
@@ -101,6 +96,40 @@
 
 
 
+
+
+
+
+      
+
+
+        <section id="gallery">
+
+            <h2>PHOTOS</h2>
+
+            <div class="gallery-container">
+                <div class="gallery-item" data-index="1">
+                    <img src="src/new/DSC05694.png" alt="un homme se faisant raser">
+                </div>
+                <div class="gallery-item" data-index="2">
+                    <img src="src/new/DSC06088.png" alt="des outils de coiffure">
+                </div>
+                <div class="gallery-item" data-index="3">
+                    <img src="src/new/DSC05744.png" alt="un hommme se faisant cou^per les cheveux">
+                </div>
+                <div class="gallery-item" data-index="4">
+                    <img src="src/new/DSC06092.png" alt="un blaireau de rasage ">
+                </div>
+                <div class="gallery-item" data-index="5">
+                    <img src="src/new/DSC05700.png" alt="un homme se faisant laver les cheveux">
+                </div>
+                <div class="gallery-item" data-index="6">
+                    <img src="src/new/DSC06087.png" alt="une personne désinfectant un siège de coiffure">
+                </div>
+
+            </div>
+
+        </section>
 
 
 
@@ -145,39 +174,24 @@
                 </div>
 
             </div>
+<div class="opening-time">
+            <p>Le salon est ouvert du mardi au samedi, de 9h à 12h et de 14h à 19h</p>
+            <p>Nocturne jusqu'à 20h30 le jeudi, journée continue le samedi </p>
+        </div>
 
             <a href="tel:0251406325" title="lien pour téléphoner">Prendre
                 rendez-vous</a>
+
+
         </section>
 
 
-        <section id="gallery">
 
-            <h2>PHOTOS</h2>
 
-            <div class="gallery-container">
-                <div class="gallery-item" data-index="1">
-                    <img src="src/new/DSC05694.png" alt="un homme se faisant raser">
-                </div>
-                <div class="gallery-item" data-index="2">
-                    <img src="src/new/DSC06088.png" alt="des outils de coiffure">
-                </div>
-                <div class="gallery-item" data-index="3">
-                    <img src="src/new/DSC05744.png" alt="un hommme se faisant cou^per les cheveux">
-                </div>
-                <div class="gallery-item" data-index="4">
-                    <img src="src/new/DSC06092.png" alt="un blaireau de rasage ">
-                </div>
-                <div class="gallery-item" data-index="5">
-                    <img src="src/new/DSC05700.png" alt="un homme se faisant laver les cheveux">
-                </div>
-                <div class="gallery-item" data-index="6">
-                    <img src="src/new/DSC06087.png" alt="une personne désinfectant un siège de coiffure">
-                </div>
 
-            </div>
 
-        </section>
+
+
 
 
         <section id="contact">
@@ -234,7 +248,8 @@
                 <p>Copyright &copy;<span id="year"></span> <br>Mister'tif injected with
                     <a href="#" target="_blank" class="text-dark">Web M design </a> <br>
 
-                    <a href="mentions.html" target="_blank" class="text-dark">Mentions légales</a></p>
+                    <a href="mentions.html" target="_blank" class="text-dark">Mentions légales</a> / 
+                    <a href="rgpd.html" target="_blank" class="text-dark">RGPD</a></p>
             </div>
             <div class="map-blue">
             <a class="find" href="https://www.google.com/maps/place/Mister'tif/@46.5983749,-1.4530011,15z/data=!4m5!3m4!1s0x0:0x945ad014a11e713d!8m2!3d46.5983749!4d-1.4530011"
@@ -277,16 +292,19 @@
         const lightBoxImg = document.createElement("img");
         const lightBoxPrev = document.createElement("div");
         const lightBoxNext = document.createElement("div");
+      
 
         lightBoxContainer.classList.add("lightbox");
         lightBoxContent.classList.add("lightbox-content");
         lightBoxPrev.classList.add("fa", "fa-angle-left", "lightbox-prev");
         lightBoxNext.classList.add("fa", "fa-angle-right", "lightbox-next");
+        
 
         lightBoxContainer.appendChild(lightBoxContent);
         lightBoxContent.appendChild(lightBoxImg);
         lightBoxContent.appendChild(lightBoxPrev);
         lightBoxContent.appendChild(lightBoxNext);
+   
 
         document.body.appendChild(lightBoxContainer);
 
