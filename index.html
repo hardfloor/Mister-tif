@@ -113,22 +113,22 @@
 
             <div class="gallery-container">
                 <div class="gallery-item" data-index="1">
-                    <img src="src/new/DSC05694.png" alt="un homme se faisant raser">
+                    <img class="photo" data-src="src/new/DSC05694.png" alt="un homme se faisant raser">
                 </div>
                 <div class="gallery-item" data-index="2">
-                    <img src="src/new/DSC06088.png" alt="des outils de coiffure">
+                    <img class="photo" data-src="src/new/DSC06088.png" alt="des outils de coiffure">
                 </div>
                 <div class="gallery-item" data-index="3">
-                    <img src="src/new/DSC05744.png" alt="un hommme se faisant cou^per les cheveux">
+                    <img class="photo" data-src="src/new/DSC05744.png" alt="un hommme se faisant cou^per les cheveux">
                 </div>
                 <div class="gallery-item" data-index="4">
-                    <img src="src/new/DSC06092.png" alt="un blaireau de rasage ">
+                    <img class="photo" data-src="src/new/DSC06092.png" alt="un blaireau de rasage ">
                 </div>
                 <div class="gallery-item" data-index="5">
-                    <img src="src/new/DSC05700.png" alt="un homme se faisant laver les cheveux">
+                    <img class="photo" data-src="src/new/DSC05700.png" alt="un homme se faisant laver les cheveux">
                 </div>
                 <div class="gallery-item" data-index="6">
-                    <img src="src/new/DSC06087.png" alt="une personne désinfectant un siège de coiffure">
+                    <img class="photo" data-src="src/new/DSC06087.png" alt="une personne désinfectant un siège de coiffure">
                 </div>
 
             </div>
@@ -357,6 +357,13 @@
         // Get the current year for the copyright
         $('#year').text(new Date().getFullYear());
     </script>
+<!--script lazy load-->
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@15.1.1/dist/lazyload.min.js"></script>
+<script>//LAZYLOAD//
+    const myLazyLoad = new LazyLoad({
+        elements_selector: ".photo"
+    })
+</script>
 </body>
 
 </html>
