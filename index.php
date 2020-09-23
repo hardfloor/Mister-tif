@@ -10,26 +10,32 @@
     <!--opengraph-->
     <meta property="og:type" content="Le savoir-faire d'un coiffeur pour hommes" />
     <!--opengraph-->
-    <meta property="og:url" content="https://mister-tif.netlify.app/" />
+    <meta property="og:url" content="hhttps://www.mister-tif.fr/" />
     <!--opengraph-->
-    <meta property="og:image" content="https://mister-tif.netlify.app/src/opengraphimg.png" />
+    <meta property="og:image" content="https://www.mister-tif.fr/src/new/opengraphimg.png" />
     <!--opengraph-->
-    <link rel="canonical" href="https://mister-tif.netlify.app/" />
+    <link rel="canonical" href="https://www.mister-tif.fr/" />
     <!--balise canonical-->
-    <link rel="icon" type="image/png" href="src/favicon.png" />
+    <link rel="icon" type="image/png" href="src/new/favicon.png" />
     <!--flavicon-->
     <title>Mister'Tif</title>
     <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css
-
-
-
-  ">
+">
     <link
         href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Barlow+Semi+Condensed&display=swap"
         rel="stylesheet">
 
-    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177524772-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-177524772-1');
+</script>
+
 </head>
 
 <body>
